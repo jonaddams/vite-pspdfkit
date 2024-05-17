@@ -23,8 +23,8 @@ export default defineConfig({
         outDir: "dist",
         rollupOptions: {
             input: {
-                main: "src/index.html",
-                v2: "src/index2.html",
+                main: "index.html",
+                v2: "v2/index.html",
             },
         },
     },
